@@ -259,6 +259,14 @@ article p {
 	color: #e0d20b;
 }
 
+@media screen and (max-width: 420px) {
+
+
+	.contact-item-p {
+		font-size: 1.2em;
+	}
+}
+
 .contact-item-i {
 	font-size: 1.7em;
 }
@@ -775,4 +783,8 @@ h1 {
 .phone-contact a{
 	color: white;
 	margin-left: 10px;
+}
+
+.contact-item-p a{
+	color: white;
 }
