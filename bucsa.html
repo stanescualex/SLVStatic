@@ -14,97 +14,55 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light custom-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-            <img src="images/logo.png" class="logo" alt="Tractari Auto Logo">
-        </a>
-
-            <!-- Buton burger pentru mobil -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#meniuPrincipal"
-                aria-controls="meniuPrincipal" aria-expanded="false" aria-label="Deschide meniul">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Meniul propriu-zis -->
-            <div class="collapse navbar-collapse justify-content-center" id="meniuPrincipal">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#home">Acasă</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#benefits">Beneficii</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#galery">Imagini</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#price">Prețuri</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="#home">Acasa</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#benefits">Beneficii</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#galery">Imagini</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#price">Preturi</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+    </ul>
     <main>
         <a href="https://wa.me/40723292648" target="_blank" class="whatsapp-button">
             <i class="fa fa-whatsapp"></i>
         </a>
         <div id="home" class="home container-content content">
-            <div id="carouselTextBg" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" style="background-image: url('images/imag5.jpeg');">
-                        <div class="carousel-caption text-center">
-                            <h1>Tractări auto rapide și sigure, 24/7</h1>
-                            <p>Suntem alături de tine oriunde și oricând ai nevoie. Apel gratuit și intervenție promptă!</p>
-                            <div class="phone-contact" >
-                                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                                <a href="tel:40723292648"
-                                    >Suna-ne +40 723 292
-                                    648</a>
-                            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row home-container">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h1 class="home-title">
+                                SLV Car
+                            </h1>
+                            <h1 id="blink_effect" class="home-title">
+                                Expert
+                            </h1>
+                            <img src="./images/mater.png" alt="Image 1" class="img-fluid w-30">
                         </div>
                     </div>
-                    <div class="carousel-item" style="background-image: url('images/imag2.jpeg')">
-                        <div class="carousel-caption text-center">
-                            <h1>Ai probleme cu mașina? Suntem aici să te ajutăm!</h1>
-                            <p>Servicii de tractare auto rapide, eficiente și la prețuri corecte – disponibil 24 de ore pe zi.</p>
-                            <div class="phone-contact" >
-                                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                                <a href="tel:40723292648"
-                                    >Suna-ne +40 723 292
-                                    648</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" style="background-image: url('images/imag3.jpeg')">
-                        <div class="carousel-caption text-center">
-                            <h1>Tractări auto de încredere în toată țara!</h1>
-                            <p>Apel rapid, ajutor imediat.</p>
-                            <div class="phone-contact" >
-                                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                                <a href="tel:40723292648"
-                                    >Suna-ne +40 723 292
-                                    648</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row home-container ">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <i class="fa fa-phone-square"></i>
+                                <a href="tel:40723292648">Suna-ne +40 723 292 648</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Butoane prev/next -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTextBg"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselTextBg"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
             </div>
-        </div>
-
 
 
         </div>
@@ -163,13 +121,13 @@
             <div class="row">
                 <div class="col-lg-6 col-md-4 col-sm-8 col-xs-8 reveal">
                     <div class="position-relative gallery-item img-custom " style="cursor: pointer;">
-                        <img src="./images/imag4.jpeg" alt="Image 1" class="w-100">
+                        <img src="./images/imgTractareAuto.jpeg" alt="Image 1" class="w-100">
 
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-4 col-sm-8 col-xs-8 reveal">
                     <div class="position-relative gallery-item img-custom" style="cursor: pointer;">
-                        <img src="./images/imag1.jpeg" alt="Image 1" class="w-100">
+                        <img src="./images/imgTractareAuto.jpeg" alt="Image 1" class="w-100">
 
                     </div>
                 </div>
@@ -187,13 +145,13 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-4 col-sm-8 col-xs-8 reveal">
                         <div class="position-relative gallery-item img-custom " style="cursor: pointer;">
-                            <img src="./images/imag3.jpeg" alt="Image 1" class="w-100">
+                            <img src="./images/imgTractareAuto.jpeg" alt="Image 1" class="w-100">
 
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-4 col-sm-8 col-xs-8 reveal">
                         <div class="position-relative gallery-item img-custom" style="cursor: pointer;">
-                            <img src="./images/imag2.jpeg" alt="Image 1" class="w-100">
+                            <img src="./images/imgTractareAuto.jpeg" alt="Image 1" class="w-100">
 
                         </div>
                     </div>
