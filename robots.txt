@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tractariauto-bucuresti-ilfov.ro/sitemap.xml
